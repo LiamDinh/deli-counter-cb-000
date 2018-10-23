@@ -21,10 +21,10 @@ end
 def now_serving(deli)
   if deli.empty?
     puts "The line is currently empty."
-  else 
+  else
     puts "Currently serving #{deli.first}."
-    deli.pop 
+    deli.pop
   end
-end 
+end
 
   
