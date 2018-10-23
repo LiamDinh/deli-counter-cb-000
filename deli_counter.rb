@@ -14,6 +14,6 @@ end
 end
 
 def take_a_number(deli, name)
-  position = deli.index(name)
-  puts "Welcome, #{name}. You are number #{position + 1} in line."
+  deli << name
+  puts "Welcome, #{name}. You are number #{deli.length + 1} in line."
 end
