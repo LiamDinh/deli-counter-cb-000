@@ -14,6 +14,6 @@ end
 end
 
 def take_a_number(katz_deli, name)
-  position = katz_deli.index(name)
+  position = katz_deli.index(name.to_s)
   puts "Welcome, #{name}. You are number #{position} in line."
 end
