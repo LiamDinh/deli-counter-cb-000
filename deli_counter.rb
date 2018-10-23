@@ -13,7 +13,7 @@ def line(katz_deli)
 end
 end
 
-def take_a_number(deli , name)
+def take_a_number(deli, name)
   position = deli.index(name)
-  puts "Welcome, #{name}. You are number #{position} in line."
+  puts "Welcome, #{name}. You are number #{position + 1} in line."
 end
